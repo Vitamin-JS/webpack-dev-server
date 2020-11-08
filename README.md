@@ -161,3 +161,15 @@ This project is heavily inspired by [peerigon/nof5](https://github.com/peerigon/
 [downloads]: https://img.shields.io/npm/dm/webpack-dev-server.svg
 [contributors-url]: https://github.com/webpack/webpack-dev-server/graphs/contributors
 [contributors]: https://img.shields.io/github/contributors/webpack/webpack-dev-server.svg
+
+
+1. Создаю репозиторий на гитхабе с названием дз
+2. Клонирую к себе пустой репозиторий
+3. На компе в эту папку с дз вставляю папку с вебпаком
+4. Делаю npm i (это тот же инсталл сокращенно)
+5. Меняю homepage
+6. Меняю файлы в src
+7. npm start - запускается на компе сборка, открывается страничка, делаю собственно дз
+8. Когда вижу, что готово, делаю npm run deploy. На гитхабе заходишь в гит пейджез  и там будет ссылка на страничку
+9. Надо на гитхаб запушить и исходники, чтобы ментору удобно было проверять, это как обычно делается
+10. Если у ментора замечания, переделываю, опять пушу исходники и опять делаю npm run deploy, чтобы и на гитхабе результирующий сайт отобразился
